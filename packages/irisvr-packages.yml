@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=irisvr
+notes: >-
+  IrisVR publishes no public API client SDK. The only first-party package found
+  on the public registries is a small internal UI element library (irisvr-ui),
+  published under the IrisVR npm account (patrick@irisvr.com). It is a UI
+  component library, not an API client, so no `SDKs` rating pointer is emitted.
+packages:
+- language: javascript
+  registry: npm
+  name: irisvr-ui
+  url: https://www.npmjs.com/package/irisvr-ui
+  install: npm install irisvr-ui
+  version: 0.0.1
+  description: IrisVR UI Elements
+  license: ISC
+  repository: github.com/irisvr/irisvr-ui
+  publisher: patrick@irisvr.com
+  official: true
+  kind: ui-elements

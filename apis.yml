@@ -1,8 +1,16 @@
 aid: irisvr
 name: IrisVR
-description: 'IrisVR is a company surfaced as a portfolio company of emergence-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  IrisVR is a virtual-reality software company for the architecture, engineering,
+  and construction (AEC) industry, best known for its two products: Prospect, a
+  desktop application that converts Revit, SketchUp, Rhino, Navisworks and other
+  3D/BIM models into immersive VR walkthroughs in one click, and Scope, a mobile
+  app for viewing and sharing 360-degree panoramas on standalone and phone-based
+  VR headsets. Founded in New York, IrisVR was acquired by The Wild in 2021, and
+  The Wild (together with IrisVR) was subsequently acquired by Autodesk in 2022.
+  The products and support site remain available. IrisVR does not publish a public
+  developer API; this profile tracks its identity, packages, and public web
+  properties in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/irisvr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +18,30 @@ x-backed-by:
 - emergence-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Enterprise Software
+- Virtual Reality
+- Augmented Reality
+- Architecture Engineering Construction
+- BIM
+- 3D Visualization
+- Collaboration
+image: https://www.irisvr.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.irisvr.com
+- type: Pricing
+  url: https://irisvr.com/pricing/
+- type: TermsOfService
+  url: https://irisvr.com/terms/
+- type: PrivacyPolicy
+  url: https://irisvr.com/privacy/
+- type: Support
+  url: https://help.irisvr.com/hc/en-us
+- type: HelpCenter
+  url: https://help.irisvr.com/hc/en-us
+- type: Downloads
+  url: https://irisvr.com/downloads/
+- type: GitHubOrganization
+  url: https://github.com/irisvr
+- type: Packages
+  url: packages/irisvr-packages.yml
+- type: WellKnown
+  url: well-known/irisvr-well-known.yml
+- type: DomainSecurity
+  url: security/irisvr-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

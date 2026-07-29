@@ -1,0 +1,19 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.irisvr.com/.well-known/*
+host: https://www.irisvr.com
+notes: >-
+  No .well-known discovery documents are published. IrisVR is an AEC VR desktop/
+  mobile software vendor (Prospect and Scope) with no public web API surface, so
+  the absence of these documents is expected. Recorded as valid negative data.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
